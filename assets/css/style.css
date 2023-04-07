@@ -1,0 +1,104 @@
+  @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    font-size: 48px;
+    background-image: url('/assets/img/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+img{
+    width: 100px;
+}
+
+h2{
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+}
+
+p{
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid white;
+    border-radius: 8px;
+    max-width: 400px;
+    height: 500px;
+    background-color: #ffffff0c;
+    box-shadow: 5px 5px 14px 0px rgba(0,0,0,0.7);
+    padding: 0 20px;
+    backdrop-filter: blur(5px);
+}
+
+.card .search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card .search input{
+    border: none;
+    border-radius: 40px;
+    height: 40px;
+    width: 75%;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #3b3b3b;
+}
+
+.card .search button{
+    border: none;
+    border-radius: 40px;
+    height: 40px;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #222222;
+    cursor: pointer;
+}
+
+.card .climate{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 1rem 0;
+    gap: 0.7rem;
+}
+
+.details{
+    width: 100%;
+    display: flex;
+    gap: 8rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.info img{
+    width: 50px;
+}
